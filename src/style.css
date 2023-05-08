@@ -1,4 +1,3 @@
-
 h1 {
   line-height: 100px;
 }
@@ -12,8 +11,6 @@ a {
 }
 .projectWrapper {
   text-align: center;
-  width: 600px;
-  background: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
   margin: 120px auto 0 auto;
   padding: 60px;
