@@ -1,3 +1,6 @@
+body {
+  
+}
 h1 {
   line-height: 100px;
 }
@@ -9,9 +12,11 @@ a {
   text-decoration: none;
   color: black;
 }
-.projectWrapper {
+.container {
+  display: block;
   text-align: center;
   border-radius: 40px;
-  margin: 120px auto 0 auto;
+  margin: 0 auto;
   padding: 60px;
+  width: 600px;
 }
