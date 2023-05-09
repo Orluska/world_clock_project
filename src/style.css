@@ -1,8 +1,26 @@
 body {
-  
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  font-family: monospace;
+}
+.container {
+  max-width: 400px;
+  margin: 160px auto 10px auto;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px 3px 3px rgb(84, 97, 79);
+}
+select {
+  display: block;
+  width: 80%;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0 auto 20px auto;
 }
 h1 {
-  line-height: 100px;
+  line-height: 48px;
+  margin-top: 0;
 }
 footer {
   text-align: center;
@@ -12,11 +30,28 @@ a {
   text-decoration: none;
   color: black;
 }
-.container {
-  display: block;
-  text-align: center;
-  border-radius: 40px;
-  margin: 0 auto;
-  padding: 60px;
-  width: 600px;
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px dashed black ;
+  text-align: left;
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 28px;
+  font-weight: bold;
+}
+small {
+  font-size: 25px;
+  vertical-align: bottom;
+}
+h2 {
+  margin: 0;
+}
+.date {
+  opacity: 0.7;
+  font-size: 12px;
 }
