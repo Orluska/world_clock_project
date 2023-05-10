@@ -13,33 +13,36 @@
     <div class="container">
       <h1>World clock</h1>
       <div class="selector">
-        <select name="selectCity" id="selectCity">
+        <select name="selectCity" id="select-city">
           <option value="" selected>Choose a city...</option>
-          <option value="newYork">New York</option>
-          <option value="paris">Paris</option>
-          <option value="paris">Sydney</option>
+          <option value="Europe/London">London 🇬🇧</option>
+          <option value="Asia/Dubai">Dubai 🇦🇪</option>
+          <option value="Australia/Sydney">Sydney 🇦🇺</option>
         </select>
       </div>
-      <div class="city" id="new-york">
-        <div>
-          <h2>New York 🇺🇸</h2>
-          <div class="date" id="new-york-date"></div>
+      <div id="cities">
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date" id="paris-date"></div>
+          </div>
+          <div class="time" id="paris-time"></div>
         </div>
-        <div class="time" id="new-york-time"></div>
-      </div>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris 🇫🇷</h2>
-          <div class="date" id="paris-date"></div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York 🇺🇸</h2>
+            <div class="date" id="new-york-date"></div>
+          </div>
+          <div class="time" id="new-york-time"></div>
         </div>
-        <div class="time" id="paris-time"></div>
-      </div>
-      <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo 🇯🇵</h2>
-          <div class="date" id="tokyo-date"></div>
+
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo 🇯🇵</h2>
+            <div class="date" id="tokyo-date"></div>
+          </div>
+          <div class="time" id="tokyo-time"></div>
         </div>
-        <div class="time" id="tokyo-time"></div>
       </div>
     </div>
     <footer>
