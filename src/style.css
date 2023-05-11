@@ -1,17 +1,20 @@
 body {
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-
+  background-image: url("andrew-stutesman-l68Z6eF2peA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Lato", sans-serif;
+  
 }
 .container {
   max-width: 500px;
   margin: 160px auto 10px auto;
-  background: white;
+  background: #dfd3c3;
   border-radius: 5px;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  opacity: 0.9;
 }
 h1 {
   line-height: 48px;
@@ -20,9 +23,10 @@ h1 {
 select {
   display: block;
   width: 80%;
-  border-radius: 2px;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 15px;
   margin: 0 auto 20px auto;
+  font-size: larger;
 }
 .city {
   display: flex;
@@ -44,7 +48,6 @@ small {
 .time {
   font-size: 28px;
   font-weight: bold;
- 
 }
 .date {
   opacity: 0.7;
@@ -53,6 +56,7 @@ small {
 footer {
   text-align: center;
   font-size: 12px;
+  font-weight: 600px;
 }
 a {
   text-decoration: none;

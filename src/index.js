@@ -50,6 +50,7 @@ function updateCity(event) {
             "hh:mm:ss [<small>]a[</small>]"
           )}</div>
         </div> 
+        </br>
         <a href="/">All cities</a>`;
 }
 let cityselect = document.querySelector("#select-city");
